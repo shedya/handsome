@@ -38,9 +38,6 @@ body {
 		background: rgba(255,255,255,.3)!important
 	}
 
-	.app.container .app-aside {
-		background: 0 0
-	}
 }
 
 .bg-light .bg,.bg-light.bg {
@@ -607,6 +604,7 @@ textarea#comment {
 	}
 
 	.links_page .left_side {
+		background: 0 0;
 		border: none
 	}
 
