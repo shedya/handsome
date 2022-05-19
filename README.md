@@ -5,7 +5,7 @@ assets为最新版本
 -----
 https://blog-cdn.shed.cm/assets/ (国内外较快)
 
-https://jsdelivr.panbaidu.cn/gh/shedya/handsome/assets/ (国内起飞 海外较快)
+~~https://jsdelivr.panbaidu.cn/gh/shedya/handsome/assets/ (国内起飞 海外较快)~~
 
 ~~https://cdn.jsdelivr.com/gh/shedya/handsome/assets/ (国内外较快)~~
 
