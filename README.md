@@ -20,7 +20,7 @@ style.css文件介绍
 
 ```
 文字内容
-<div>
+<cnm>
 <img />
 <img />
 <img />
@@ -29,9 +29,9 @@ style.css文件介绍
 <img />
 <img />
 <img />
-</div>
+</cnm>
 ```
-每个dir代表一行
+每个cnm代表一行
 
 建议每行不超过3个img
 
