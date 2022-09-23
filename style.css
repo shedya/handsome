@@ -1,4 +1,4 @@
-.panel-body.comment-content-true cnm a img.block {
+.panel-body.comment-content-true cnm a img.block , img.cnmimg {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -9,9 +9,15 @@
 	-moz-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
+	display: initial!important;
+	margin: 0!important;
+	object-fit: cover;
+	max-width: 100%!important;
 }
 
-.panel-body.comment-content-true cnm a.light-link {
+.panel-body.comment-content-true cnm a.light-link , a.cnma{
+	width: calc(30% - 10px);
+	aspect-ratio: 1 / 1;
 	position: relative;
 	display: block;
 	overflow: hidden;
@@ -22,51 +28,12 @@
 	margin: 5px;
 }
 
-.panel-body.comment-content-true cnm a img.block {
-	display: initial!important;
-	margin: 0!important;
-	object-fit: cover;
-}
-
 .panel-body.comment-content-true cnm {
 	display: inline-flex;
+	width: 100%;
 }
 
-.panel-body.comment-content-true cnm a img.block {
-	max-width: 100%!important;
-}
-
-@media (max-width:349px) {
-	.panel-body.comment-content-true cnm a.light-link {
-		width: 50px;
-		height: 50px
-	}
-}
-
-@media (min-width:350px) and (max-width:399px) {
-	.panel-body.comment-content-true cnm a.light-link {
-		width: 65px;
-		height: 65px
-	}
-}
-
-@media (min-width:400px) and (max-width:499px) {
-	.panel-body.comment-content-true cnm a.light-link {
-		width: 75px;
-		height: 75px
-	}
-}
-
-@media (min-width:500px) and (max-width:1200px) {
-	.panel-body.comment-content-true cnm a.light-link {
-		width: 100px;
-		height: 100px
-	}
-}
-
-@media (min-width:1201px) {
-	.panel-body.comment-content-true cnm a.light-link {
-		width: 150px;
-		height: 150px
-	}
+a.light-link.cnma {
+    display: inline-block;
+	margin: 2px 5px;
 }
